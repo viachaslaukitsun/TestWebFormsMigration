@@ -1,0 +1,225 @@
+﻿
+/*Master page css kısmı*/
+
+body {
+  padding-bottom: 20px;
+  padding-top: 10px;
+  color: rgb(51, 50, 50);
+}
+
+@-ms-viewport     { width: device-width; }
+@-o-viewport      { width: device-width; }
+@viewport         { width: device-width; }
+
+
+.navbar-wrapper {
+   
+}
+
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-top: 0;
+  margin:auto;
+  
+}
+
+.navbar-wrapper .navbar {
+  margin-right: 6px;
+  margin-left:6px;
+  border-color:rgb(51, 50, 50);
+  
+}
+
+
+.navbar-wrapper .navbar .container {
+  width:auto;
+  
+}
+
+.navbar-wrapper .navbar .container  h2{
+  color: rgb(255, 255, 255);
+  font-size:25px;
+  margin-left:20px;
+  margin-bottom:20px;
+  
+}
+
+
+.navbar-wrapper .navbar .container  button{
+  margin-top:15px;
+}
+
+.navbar-wrapper .navbar .container .navbar-collapse ul li a{
+    color:rgb(255, 255, 255);
+    background-color:rgb(51, 50, 50);
+    font-size:14px;
+    padding-left:37px;
+    padding-right:37px;
+}
+
+.navbar-wrapper .navbar .container .navbar-collapse ul li a:hover{
+  color:rgb(51, 50, 50);
+  background-color:rgb(255, 255, 255);
+  padding-left:37px;
+  padding-right:37px;
+}
+
+body footer .button-position {
+    margin-left:30px;
+}
+
+body footer  p{
+    color:rgb(51, 50, 50);
+    font-size:14px;
+    margin-left:30px;
+    font-weight:bold;
+}
+body footer .button-position .btn{
+    width:120px;
+}
+
+/*Default page css kısmı*/
+
+.marketing .col-lg-3 {
+  margin-bottom: 20px;
+  text-align: center;
+  margin:auto;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-3 p {
+  margin-right: 10px;
+  margin-left: 10px;
+  
+}
+
+.marketing .col-lg-3 .button-position .btn-primary{
+  width:180px;
+  height:30px;
+  font-size:14px;
+}
+
+.marketing .col-lg-3 .button-position .btn-success{
+  width:180px;
+  height:30px;
+  font-size:14px;
+}
+
+.marketing .col-lg-3 .button-position .btn-danger{
+  width:180px;
+  height:30px;
+  font-size:14px;
+}
+
+.marketing .col-lg-3 .button-position .btn-info{
+  width:180px;
+  height:30px;
+  font-size:14px;
+}
+
+.marketing .col-lg-3 h2{
+  color:rgb(51, 50, 50);
+  font-size:18px;
+  font-weight:bold;
+  font:italic;
+}
+
+.marketing .col-lg-3 h3{
+  color:rgb(51, 50, 50);
+  font-size:12px;
+  font:italic;
+}
+
+.marketing .row .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.marketing .row .col-lg-4 h2{
+    font-size:18px;
+    font-weight:bold;
+    color:rgb(51, 50, 50);
+    font-style:italic;
+}
+
+.marketing .row .col-lg-4 p{
+    font-size:16px;
+    color:rgb(51, 50, 50);
+}
+
+.marketing .row .col-lg-8 p{
+    font-size:16px;
+    color:rgb(51, 50, 50);
+}
+
+.marketing .row .col-lg-8 h2{
+    font-size:18px;
+    font-weight:bold;
+    color:rgb(51, 50, 50);
+    font-style:italic;
+    text-align:center;
+    margin-top:0px;
+    
+}
+
+.marketing .row .col-lg-6 p{
+    font-size:16px;
+    color:rgb(51, 50, 50);
+}
+
+.marketing .row .col-lg-6 h2{
+    font-size:18px;
+    font-weight:bold;
+    color:rgb(51, 50, 50);
+    font-style:italic;
+    text-align:center;
+    margin-top:0px;  
+}
+
+.marketing .row .col-lg-12 p{
+    font-size:16px;
+    color:rgb(51, 50, 50);
+}
+
+.marketing .row .col-lg-12 h2{
+    font-size:18px;
+    font-weight:bold;
+    color:rgb(51, 50, 50);
+    font-style:italic;
+    text-align:center;
+    margin-top:0px;
+    
+}
+
+.featurette .col-md-push-5 .featurette-heading{
+    font-size:18px;
+    color:rgb(51, 50, 50);
+}
+
+.featurette .col-md-push-5 .lead{
+    font-size:16px;
+    color:rgb(51, 50, 50);
+    font-style:normal;
+}
+
+.featurette .col-md-7 .featurette-heading{
+    font-size:18px;
+    color:rgb(51, 50, 50);
+}
+
+.featurette .col-md-7 .lead{
+    font-size:16px;
+    color:rgb(51, 50, 50);
+    font-style:normal;
+}
+
+/*Iletisim page css kısmı*/
+
+
+.marketing .featurette .col-lg-6 .panel-default .panel-body  {
+    color:rgb(51, 50, 50);
+    font-size:16px;
+}
